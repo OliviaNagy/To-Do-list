@@ -11,7 +11,7 @@
     width: 100%;
    min-height: 100vh;
 background:linear-gradient(44deg, #2e0033 10%, #4a1083 50%, #2e0033 100%);
-    padding: 100px;
+    padding: 10px;
    
     
 }
@@ -122,6 +122,6 @@ span:hover
     height:40px;
     position: absolute;
     left: 560px;
-    top:235px;
+    top:145px;
     color:white;
 }
