@@ -80,7 +80,7 @@ ul li::before
     border-radius: 50%;
     top:10px;
     left: 8px;
-    background-image: url(impty.jpeg);
+    background-image: url(/images/impty.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -95,7 +95,7 @@ ul li::before
 }
 ul li.checked::before
 {
-    background-image: url(checked.jpg);
+    background-image: url(/images/checked.jpg);
 
 }
 span
