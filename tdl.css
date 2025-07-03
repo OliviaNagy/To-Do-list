@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.container
+{
+    width: 100%;
+   min-height: 100vh;
+background:linear-gradient(44deg, #2e0033 10%, #4a1083 50%, #2e0033 100%);
+    padding: 100px;
+   
+    
+}
+.todo
+{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto;
+    padding: 40px 30px;
+ color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.51);
+}
+.todo h2
+{
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-bottom:30px ;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input
+{
+    flex:1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+button
+{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 16px 30px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+ ul li
+{
+    list-style: none;
+    font-size: 22px;
+    padding:12px 8px 12px 50px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+ul li::before
+{
+    content: ' ';
+    position: absolute;
+    height:28px;
+    width: 28px;
+    border-radius: 50%;
+    top:10px;
+    left: 8px;
+    background-image: url(impty.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.checked
+{
+    text-decoration: line-through;
+   color:rgb(168, 168, 168)
+}
+ul li.checked::before
+{
+    background-image: url(checked.jpg);
+
+}
+span
+{
+    position:absolute;
+    right:10px;
+    top:8px;
+    color: rgb(255, 12, 12);
+   
+    font-size:24px;
+    text-align: center;
+    line-height: 40px;
+
+}
+span:hover
+{
+   color: red;
+     transform: translateY(-1px);
+
+}
+.icon
+{
+    width :40px;
+    height:40px;
+    position: absolute;
+    left: 560px;
+    top:235px;
+    color:white;
+}
