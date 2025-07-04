@@ -21,6 +21,11 @@ li.appendChild(span);
     inputbox.value=""
 
 }
+inputbox.addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        addtask(); 
+    }
+});
 
 listcontainer.addEventListener("click",function(e){
     if(e.target.tagName==="LI"){
